@@ -9,24 +9,22 @@
 body {
     font-family: "Share Tech Mono", monospace;
     font-weight: 400;
-    font-style: normal;
     line-height: 1.6;
     background-color: #f0f0f0; /* Light gray background */
     color: #333; /* Dark gray text color */
-    margin: 0;
-    padding: 0;
+    font-size: 30px;
 }
 
 /* Header styles */
 header {
     background-color: #333; /* Dark background for header */
     color: #fff; /* White text color */
-    padding: 10px 20px;
+    padding: 10px auto;
     text-align: center;
 }
 
 header h1 {
-    font-size: 2rem; /* Larger header font size */
+    font-size: 4rem; /* Larger header font size */
     color: #f2b834;
 }
 
@@ -53,6 +51,8 @@ section {
     margin-bottom: 20px;
     padding: 20px;
     border-bottom: 1px solid #ccc; /* Add a bottom border to separate sections */
+    display: grid;
+    grid-template-columns: 1fr 0.5fr; /* Two equal columns */
 }
 
 .content {
@@ -63,6 +63,7 @@ section {
 
 .images {
     right: auto;
+    padding: 0;
 }
 
 section h2 {
@@ -79,6 +80,10 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+b {
+    color: rgb(101, 104, 237);
 }
 
 footer p {
