@@ -89,3 +89,20 @@ b {
 footer p {
     font-size: 0.8rem; /* Smaller font size for footer text */
 }
+
+/* Typing cursor styles */
+.typing-text { visibility: hidden; }
+.typing-text::after {
+    content: '|';
+    display: inline-block;
+    animation: blink 1s steps(2, start) infinite;
+}
+
+@keyframes blink {
+    0%, 50% {
+        opacity: 1;
+    }
+    50.01%, 100% {
+        opacity: 0;
+    }
+}
