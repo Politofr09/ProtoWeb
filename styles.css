@@ -82,8 +82,9 @@ footer {
     width: 100%;
 }
 
-b {
+b, a {
     color: rgb(101, 104, 237);
+    text-decoration: none;
 }
 
 footer p {
