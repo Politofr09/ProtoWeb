@@ -1,0 +1,86 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: "Share Tech Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.6;
+    background-color: #f0f0f0; /* Light gray background */
+    color: #333; /* Dark gray text color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #333; /* Dark background for header */
+    color: #fff; /* White text color */
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem; /* Larger header font size */
+    color: #f2b834;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+    margin: 20px auto;
+    width: 95%; /* Use 95% of the viewport width */
+    background-color: #f0f0f0;
+}
+
+/* Section styles */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    width: 100%;
+    background-color: #fff; /* White background for section */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.welcome {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-bottom: 1px solid #ccc; /* Add a bottom border to separate sections */
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 20px; /* Gap between columns */
+}
+
+.images {
+    right: auto;
+}
+
+section h2 {
+    font-size: 1.5rem; /* Section heading font size */
+    margin-bottom: 10px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333; /* Dark background for footer */
+    color: #fff; /* White text color */
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 0.8rem; /* Smaller font size for footer text */
+}
